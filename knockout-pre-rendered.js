@@ -168,7 +168,7 @@
     var changeMap = {
       added: [],
       existing: [],
-      deleted: [],
+      deleted: []
     };
 
     ko.utils.arrayForEach(changeSet, function(changeItem) {
@@ -351,7 +351,7 @@
     },
 
     // Export for testing, debugging, and overloading.
-    InitializedForeach: InitializedForeach,
+    InitializedForeach: InitializedForeach
   };
 
   ko.virtualElements.allowedBindings.foreachInit = true;
