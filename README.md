@@ -1,4 +1,5 @@
 # Knockout pre-rendered binding handlers
+Note: To support IE6-7 (and IE 8 compatibility mode) you need to include the JSON-js polyfill: https://github.com/douglascrockford/JSON-js
 
 [![Bower version](https://badge.fury.io/bo/knockout-pre-rendered.svg)](http://badge.fury.io/bo/knockout-pre-rendered) 
 [![npm version](https://badge.fury.io/js/knockout-pre-rendered.svg)](http://badge.fury.io/js/knockout-pre-rendered)
